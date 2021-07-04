@@ -1,0 +1,66 @@
+@media(min-width: 468px)
+{
+	.container-1 div{
+		border:1px #ccc solid;
+		padding: 10px;
+		display:flex;
+		flex-direction: column;
+	}
+
+	.container-2 div{
+		border: 1px #ccc solid;
+		padding: 10px;
+		flex-basis:25%;
+		justify-content: flex-centrer;
+	}
+}
+body{
+	font-family:Georgia;
+	background:cream;
+	color:black;
+}
+.box-1{
+	flex:1;
+}
+
+.box-2{
+	flex:1;
+}
+
+.box-3{
+	flex:2;
+}
+
+.box-4{
+	flex:2;
+}
+
+.box-5{
+	flex:2;
+}
+
+.box-6{
+	flex:2;
+}
+
+h2{
+	text-shadow:2px 2px #ff0000;
+}
+
+h4{
+	font-style: italic;
+	color: blue;
+}
+
+.name{
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+
+
+
